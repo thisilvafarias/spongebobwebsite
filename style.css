@@ -31,16 +31,15 @@ p {
 
 #main-content {
 	margin:0 auto;
-	width:700px;
-
+	width:100%;
 }
 
-@media screen and (max-width: 800px) {
+
 #main-image {
 	text-align:center;
 	width: 100%;
 	}
-}
+
 
 #left-column {
 	width:40%;
