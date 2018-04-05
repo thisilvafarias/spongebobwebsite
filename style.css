@@ -5,7 +5,7 @@ body {
 	color:#2a3845;
 	margin:0;
 	padding:0;
-	background:#FFFFFF;
+	background:lightblue;
 }
 
 p {
@@ -15,47 +15,51 @@ p {
 
 #wrapper {
 	margin:0 auto;
-	border-left:1px solid #f0e9eb;
-	border-right:1px solid #f0e9eb;
 	max-width:800px;
+	border-left:3px solid pink;
+	border-right:1px solid #f0e9eb;
+	
 }
 
 #header {
 	margin:0 1px;
+  background:pink;
+  
 }
 
 #bg {
 	height:36px;
-	background:url('http://img840.imageshack.us/img840/9886/87926428.gif') repeat-x;
+	background: black;
 }
 
 #main-content {
-	margin:0 1px;
-	width:100%;
+	margin:0 auto;
+  background: gray;
 }
-
 
 #main-image {
 	text-align:center;
-	width: 100%;
-	}
-
+  background: green;
+}
 
 #left-column {
-	width:40%;
+	width:300px;
 	padding:0 30px 30px;
 	float:left;
+  background: green;
 }
 
 #right-column {
-	width:20%;
+	width:270px;
 	float:right;
+  background: pink;
 }
 
 .sidebar {
 	width:218px;
 	margin:0 auto;
 	padding:10px 25px;
+  background: yellow;
 	background:url('http://img404.imageshack.us/img404/3092/shadowh.jpg') no-repeat top;
 }
 
@@ -64,6 +68,7 @@ p {
 	border-top:1px solid #f0e9eb;
 	padding:10px 15px;
 	clear:both;
+  background: yellow;
 }
 
 /* Global Styling */
