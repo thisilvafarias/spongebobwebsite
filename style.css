@@ -18,47 +18,39 @@ p {
 	border-left:1px solid #f0e9eb;
 	border-right:1px solid #f0e9eb;
 	width:100%;
-  
 	
 }
 
 #header {
 	margin:0 1px;
-  
 }
 
 #bg {
 	height:36px;
-  background: black;
+	background:url('http://img840.imageshack.us/img840/9886/87926428.gif') repeat-x;
 }
 
 #main-content {
-  
-	margin: auto;
+	margin:0 auto;
 	width:800px;
-	background: red;
+	background: black;
 
 }
 
 #main-image {
 	text-align:center;
-  background: blue;
 }
 
 #left-column {
-	width:300px;
+	width:50%;
 	padding:0 30px 30px;
 	float:left;
-  background: pink;
-  
 	
 }
 
 #right-column {
-	width:200px;
+	width:30%;
 	float:right;
-  background: pink;
-  
 }
 
 .sidebar {
